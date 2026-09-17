@@ -1,0 +1,46 @@
+input,expected_output,category
+What's your refund policy?,Returns are accepted within 30 days of delivery.,returns
+How long do I have to return something?,Thirty days from the day it was delivered.,returns
+Who pays for return postage?,The customer pays return postage.,returns
+Can I return a gift?,"Gift orders can be exchanged, but not refunded.",returns
+"I bought this 40 days ago, can I return it?",No. The 30-day window has closed; a colleague can review the case.,returns
+Can I return a sale item?,Summer sale items are final and cannot be returned.,returns
+Do I need the original box to return?,"Yes, items must be returned in their original packaging.",returns
+Can I exchange instead of refund?,"Yes, exchanges are available within the same 30-day window.",returns
+"My item arrived damaged, what now?","Damaged items are replaced free of charge, outside the normal policy.",returns
+Can I return part of a multi-item order?,"Yes, individual items can be returned separately.",returns
+How long does a refund take?,Refunds reach the original card in 5 to 7 days.,refunds
+Where does my refund go?,Back to the card used for the original purchase.,refunds
+Can I get a refund to a different card?,No. Refunds return to the original payment method only.,refunds
+Do you refund the original delivery cost?,Delivery charges are not refunded.,refunds
+Can I get store credit instead?,"Yes, store credit is available on request and never expires.",refunds
+"I paid with a gift card, how am I refunded?",Refunds for gift-card orders are issued as store credit.,refunds
+Do you ship to Germany?,No. Shipping is inside the country only.,shipping
+How long does delivery take?,Standard shipping takes 2 to 4 working days.,shipping
+Do you offer next-day delivery?,Next-day delivery is available in the capital for an extra fee.,shipping
+Is delivery free?,Delivery is free on orders over 50 JOD.,shipping
+Can I change my delivery address after ordering?,"Yes, until the parcel leaves the warehouse.",shipping
+Do you deliver on Fridays?,No. Deliveries run Sunday to Thursday.,shipping
+Can I collect from the warehouse?,"Yes, collection is available with 24 hours notice.",shipping
+What if I am not home for delivery?,The courier leaves a card and retries the next working day.,shipping
+Where is my order?,Track it with the tracking number in your confirmation email.,orders
+How do I track my parcel?,"Use the tracking number on the carrier's site, or ask here.",orders
+Can I cancel my order?,"Yes, until the parcel leaves the warehouse.",orders
+Can I add an item to an existing order?,No. Place a second order; they may arrive separately.,orders
+"I never received my order, what now?",Orders not delivered within 10 days are refunded in full.,orders
+Can I order by phone?,No. Orders are placed on the website only.,orders
+Do you keep items in stock?,Stock is shown live on each product page.,orders
+Can I pre-order something out of stock?,"No, but you can join the back-in-stock list.",orders
+Do your shoes run true to size?,Shoes run true to size; a size chart is on every product page.,products
+Do you sell size 42 in blue?,Availability is shown live on the product page.,products
+Is there a warranty?,All items carry a one-year manufacturing warranty.,products
+Are your products genuine?,Yes. Every item is sourced directly from the brand.,products
+What payment methods do you take?,"Visa, Mastercard, and cash on delivery.",payment
+Is cash on delivery available?,"Yes, for orders under 200 JOD.",payment
+Do you store my card details?,No. Card details are handled by the payment provider.,payment
+Can I pay in instalments?,Instalments are available on orders over 300 JOD.,payment
+Do I need an account to order?,"No, guest checkout is available.",account
+How do I reset my password?,Use the reset link on the sign-in page.,account
+How do I delete my account?,Email support and the account is removed within 7 days.,account
+Do you have a physical shop?,No. The store is online only.,account
+What are your support hours?,"Support replies Sunday to Thursday, 9am to 5pm.",account
