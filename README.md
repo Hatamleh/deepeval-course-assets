@@ -35,5 +35,25 @@ print(len(dataset.goldens))   # 45
 uv add deepeval pandas
 ```
 
+## questions.json
+
+The same 45 questions, plus a `context` list per question — two policy chunks
+that a complete answer should be grounded in. JSON because `context` is a
+**list**, and a CSV cell can only hold text.
+
+```python
+dataset.add_goldens_from_json_file(
+    file_path="questions.json",
+    input_key_name="input",
+    expected_output_key_name="expected_output",
+    context_key_name="context",
+)
+
+print(len(dataset.goldens[0].context))   # 2
+```
+
+Use the CSV for plain question-and-answer goldens; use the JSON as soon as a
+golden needs `context`, `retrieval_context` or tool calls.
+
 ---
 Part of [QAcart](https://qacart.com) course material.

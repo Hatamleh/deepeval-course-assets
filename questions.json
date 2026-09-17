@@ -1,0 +1,394 @@
+[
+  {
+    "input": "What's your refund policy?",
+    "expected_output": "Returns are accepted within 30 days of delivery.",
+    "context": [
+      "Policy §4 — Returns: items may be returned within 30 days of delivery, in original packaging. Return postage is paid by the customer.",
+      "Policy §4.2 — Gift orders may be exchanged, never refunded. Summer sale items are final."
+    ],
+    "category": "returns"
+  },
+  {
+    "input": "How long do I have to return something?",
+    "expected_output": "Thirty days from the day it was delivered.",
+    "context": [
+      "Policy §4 — Returns: items may be returned within 30 days of delivery, in original packaging. Return postage is paid by the customer.",
+      "Policy §4.2 — Gift orders may be exchanged, never refunded. Summer sale items are final."
+    ],
+    "category": "returns"
+  },
+  {
+    "input": "Who pays for return postage?",
+    "expected_output": "The customer pays return postage.",
+    "context": [
+      "Policy §4 — Returns: items may be returned within 30 days of delivery, in original packaging. Return postage is paid by the customer.",
+      "Policy §4.2 — Gift orders may be exchanged, never refunded. Summer sale items are final."
+    ],
+    "category": "returns"
+  },
+  {
+    "input": "Can I return a gift?",
+    "expected_output": "Gift orders can be exchanged, but not refunded.",
+    "context": [
+      "Policy §4 — Returns: items may be returned within 30 days of delivery, in original packaging. Return postage is paid by the customer.",
+      "Policy §4.2 — Gift orders may be exchanged, never refunded. Summer sale items are final."
+    ],
+    "category": "returns"
+  },
+  {
+    "input": "I bought this 40 days ago, can I return it?",
+    "expected_output": "No. The 30-day window has closed; a colleague can review the case.",
+    "context": [
+      "Policy §4 — Returns: items may be returned within 30 days of delivery, in original packaging. Return postage is paid by the customer.",
+      "Policy §4.2 — Gift orders may be exchanged, never refunded. Summer sale items are final."
+    ],
+    "category": "returns"
+  },
+  {
+    "input": "Can I return a sale item?",
+    "expected_output": "Summer sale items are final and cannot be returned.",
+    "context": [
+      "Policy §4 — Returns: items may be returned within 30 days of delivery, in original packaging. Return postage is paid by the customer.",
+      "Policy §4.2 — Gift orders may be exchanged, never refunded. Summer sale items are final."
+    ],
+    "category": "returns"
+  },
+  {
+    "input": "Do I need the original box to return?",
+    "expected_output": "Yes, items must be returned in their original packaging.",
+    "context": [
+      "Policy §4 — Returns: items may be returned within 30 days of delivery, in original packaging. Return postage is paid by the customer.",
+      "Policy §4.2 — Gift orders may be exchanged, never refunded. Summer sale items are final."
+    ],
+    "category": "returns"
+  },
+  {
+    "input": "Can I exchange instead of refund?",
+    "expected_output": "Yes, exchanges are available within the same 30-day window.",
+    "context": [
+      "Policy §4 — Returns: items may be returned within 30 days of delivery, in original packaging. Return postage is paid by the customer.",
+      "Policy §4.2 — Gift orders may be exchanged, never refunded. Summer sale items are final."
+    ],
+    "category": "returns"
+  },
+  {
+    "input": "My item arrived damaged, what now?",
+    "expected_output": "Damaged items are replaced free of charge, outside the normal policy.",
+    "context": [
+      "Policy §4 — Returns: items may be returned within 30 days of delivery, in original packaging. Return postage is paid by the customer.",
+      "Policy §4.2 — Gift orders may be exchanged, never refunded. Summer sale items are final."
+    ],
+    "category": "returns"
+  },
+  {
+    "input": "Can I return part of a multi-item order?",
+    "expected_output": "Yes, individual items can be returned separately.",
+    "context": [
+      "Policy §4 — Returns: items may be returned within 30 days of delivery, in original packaging. Return postage is paid by the customer.",
+      "Policy §4.2 — Gift orders may be exchanged, never refunded. Summer sale items are final."
+    ],
+    "category": "returns"
+  },
+  {
+    "input": "How long does a refund take?",
+    "expected_output": "Refunds reach the original card in 5 to 7 days.",
+    "context": [
+      "Policy §5 — Refunds are issued to the original payment method and reach the card in 5 to 7 working days. Delivery charges are not refunded.",
+      "Policy §5.1 — Gift-card orders are refunded as store credit, which does not expire."
+    ],
+    "category": "refunds"
+  },
+  {
+    "input": "Where does my refund go?",
+    "expected_output": "Back to the card used for the original purchase.",
+    "context": [
+      "Policy §5 — Refunds are issued to the original payment method and reach the card in 5 to 7 working days. Delivery charges are not refunded.",
+      "Policy §5.1 — Gift-card orders are refunded as store credit, which does not expire."
+    ],
+    "category": "refunds"
+  },
+  {
+    "input": "Can I get a refund to a different card?",
+    "expected_output": "No. Refunds return to the original payment method only.",
+    "context": [
+      "Policy §5 — Refunds are issued to the original payment method and reach the card in 5 to 7 working days. Delivery charges are not refunded.",
+      "Policy §5.1 — Gift-card orders are refunded as store credit, which does not expire."
+    ],
+    "category": "refunds"
+  },
+  {
+    "input": "Do you refund the original delivery cost?",
+    "expected_output": "Delivery charges are not refunded.",
+    "context": [
+      "Policy §5 — Refunds are issued to the original payment method and reach the card in 5 to 7 working days. Delivery charges are not refunded.",
+      "Policy §5.1 — Gift-card orders are refunded as store credit, which does not expire."
+    ],
+    "category": "refunds"
+  },
+  {
+    "input": "Can I get store credit instead?",
+    "expected_output": "Yes, store credit is available on request and never expires.",
+    "context": [
+      "Policy §5 — Refunds are issued to the original payment method and reach the card in 5 to 7 working days. Delivery charges are not refunded.",
+      "Policy §5.1 — Gift-card orders are refunded as store credit, which does not expire."
+    ],
+    "category": "refunds"
+  },
+  {
+    "input": "I paid with a gift card, how am I refunded?",
+    "expected_output": "Refunds for gift-card orders are issued as store credit.",
+    "context": [
+      "Policy §5 — Refunds are issued to the original payment method and reach the card in 5 to 7 working days. Delivery charges are not refunded.",
+      "Policy §5.1 — Gift-card orders are refunded as store credit, which does not expire."
+    ],
+    "category": "refunds"
+  },
+  {
+    "input": "Do you ship to Germany?",
+    "expected_output": "No. Shipping is inside the country only.",
+    "context": [
+      "Policy §2 — Shipping is inside the country only, 2 to 4 working days. Free over 50 JOD. Next-day available in the capital for a fee.",
+      "Policy §2.3 — Deliveries run Sunday to Thursday. Collection from the warehouse needs 24 hours notice."
+    ],
+    "category": "shipping"
+  },
+  {
+    "input": "How long does delivery take?",
+    "expected_output": "Standard shipping takes 2 to 4 working days.",
+    "context": [
+      "Policy §2 — Shipping is inside the country only, 2 to 4 working days. Free over 50 JOD. Next-day available in the capital for a fee.",
+      "Policy §2.3 — Deliveries run Sunday to Thursday. Collection from the warehouse needs 24 hours notice."
+    ],
+    "category": "shipping"
+  },
+  {
+    "input": "Do you offer next-day delivery?",
+    "expected_output": "Next-day delivery is available in the capital for an extra fee.",
+    "context": [
+      "Policy §2 — Shipping is inside the country only, 2 to 4 working days. Free over 50 JOD. Next-day available in the capital for a fee.",
+      "Policy §2.3 — Deliveries run Sunday to Thursday. Collection from the warehouse needs 24 hours notice."
+    ],
+    "category": "shipping"
+  },
+  {
+    "input": "Is delivery free?",
+    "expected_output": "Delivery is free on orders over 50 JOD.",
+    "context": [
+      "Policy §2 — Shipping is inside the country only, 2 to 4 working days. Free over 50 JOD. Next-day available in the capital for a fee.",
+      "Policy §2.3 — Deliveries run Sunday to Thursday. Collection from the warehouse needs 24 hours notice."
+    ],
+    "category": "shipping"
+  },
+  {
+    "input": "Can I change my delivery address after ordering?",
+    "expected_output": "Yes, until the parcel leaves the warehouse.",
+    "context": [
+      "Policy §2 — Shipping is inside the country only, 2 to 4 working days. Free over 50 JOD. Next-day available in the capital for a fee.",
+      "Policy §2.3 — Deliveries run Sunday to Thursday. Collection from the warehouse needs 24 hours notice."
+    ],
+    "category": "shipping"
+  },
+  {
+    "input": "Do you deliver on Fridays?",
+    "expected_output": "No. Deliveries run Sunday to Thursday.",
+    "context": [
+      "Policy §2 — Shipping is inside the country only, 2 to 4 working days. Free over 50 JOD. Next-day available in the capital for a fee.",
+      "Policy §2.3 — Deliveries run Sunday to Thursday. Collection from the warehouse needs 24 hours notice."
+    ],
+    "category": "shipping"
+  },
+  {
+    "input": "Can I collect from the warehouse?",
+    "expected_output": "Yes, collection is available with 24 hours notice.",
+    "context": [
+      "Policy §2 — Shipping is inside the country only, 2 to 4 working days. Free over 50 JOD. Next-day available in the capital for a fee.",
+      "Policy §2.3 — Deliveries run Sunday to Thursday. Collection from the warehouse needs 24 hours notice."
+    ],
+    "category": "shipping"
+  },
+  {
+    "input": "What if I am not home for delivery?",
+    "expected_output": "The courier leaves a card and retries the next working day.",
+    "context": [
+      "Policy §2 — Shipping is inside the country only, 2 to 4 working days. Free over 50 JOD. Next-day available in the capital for a fee.",
+      "Policy §2.3 — Deliveries run Sunday to Thursday. Collection from the warehouse needs 24 hours notice."
+    ],
+    "category": "shipping"
+  },
+  {
+    "input": "Where is my order?",
+    "expected_output": "Track it with the tracking number in your confirmation email.",
+    "context": [
+      "Policy §3 — Orders can be cancelled or re-addressed until the parcel leaves the warehouse. Undelivered after 10 days: refunded in full.",
+      "Policy §3.1 — Track any parcel with the number in the confirmation email."
+    ],
+    "category": "orders"
+  },
+  {
+    "input": "How do I track my parcel?",
+    "expected_output": "Use the tracking number on the carrier's site, or ask here.",
+    "context": [
+      "Policy §3 — Orders can be cancelled or re-addressed until the parcel leaves the warehouse. Undelivered after 10 days: refunded in full.",
+      "Policy §3.1 — Track any parcel with the number in the confirmation email."
+    ],
+    "category": "orders"
+  },
+  {
+    "input": "Can I cancel my order?",
+    "expected_output": "Yes, until the parcel leaves the warehouse.",
+    "context": [
+      "Policy §3 — Orders can be cancelled or re-addressed until the parcel leaves the warehouse. Undelivered after 10 days: refunded in full.",
+      "Policy §3.1 — Track any parcel with the number in the confirmation email."
+    ],
+    "category": "orders"
+  },
+  {
+    "input": "Can I add an item to an existing order?",
+    "expected_output": "No. Place a second order; they may arrive separately.",
+    "context": [
+      "Policy §3 — Orders can be cancelled or re-addressed until the parcel leaves the warehouse. Undelivered after 10 days: refunded in full.",
+      "Policy §3.1 — Track any parcel with the number in the confirmation email."
+    ],
+    "category": "orders"
+  },
+  {
+    "input": "I never received my order, what now?",
+    "expected_output": "Orders not delivered within 10 days are refunded in full.",
+    "context": [
+      "Policy §3 — Orders can be cancelled or re-addressed until the parcel leaves the warehouse. Undelivered after 10 days: refunded in full.",
+      "Policy §3.1 — Track any parcel with the number in the confirmation email."
+    ],
+    "category": "orders"
+  },
+  {
+    "input": "Can I order by phone?",
+    "expected_output": "No. Orders are placed on the website only.",
+    "context": [
+      "Policy §3 — Orders can be cancelled or re-addressed until the parcel leaves the warehouse. Undelivered after 10 days: refunded in full.",
+      "Policy §3.1 — Track any parcel with the number in the confirmation email."
+    ],
+    "category": "orders"
+  },
+  {
+    "input": "Do you keep items in stock?",
+    "expected_output": "Stock is shown live on each product page.",
+    "context": [
+      "Policy §3 — Orders can be cancelled or re-addressed until the parcel leaves the warehouse. Undelivered after 10 days: refunded in full.",
+      "Policy §3.1 — Track any parcel with the number in the confirmation email."
+    ],
+    "category": "orders"
+  },
+  {
+    "input": "Can I pre-order something out of stock?",
+    "expected_output": "No, but you can join the back-in-stock list.",
+    "context": [
+      "Policy §3 — Orders can be cancelled or re-addressed until the parcel leaves the warehouse. Undelivered after 10 days: refunded in full.",
+      "Policy §3.1 — Track any parcel with the number in the confirmation email."
+    ],
+    "category": "orders"
+  },
+  {
+    "input": "Do your shoes run true to size?",
+    "expected_output": "Shoes run true to size; a size chart is on every product page.",
+    "context": [
+      "Policy §6 — All items carry a one-year manufacturing warranty and are sourced directly from the brand. Shoes run true to size."
+    ],
+    "category": "products"
+  },
+  {
+    "input": "Do you sell size 42 in blue?",
+    "expected_output": "Availability is shown live on the product page.",
+    "context": [
+      "Policy §6 — All items carry a one-year manufacturing warranty and are sourced directly from the brand. Shoes run true to size."
+    ],
+    "category": "products"
+  },
+  {
+    "input": "Is there a warranty?",
+    "expected_output": "All items carry a one-year manufacturing warranty.",
+    "context": [
+      "Policy §6 — All items carry a one-year manufacturing warranty and are sourced directly from the brand. Shoes run true to size."
+    ],
+    "category": "products"
+  },
+  {
+    "input": "Are your products genuine?",
+    "expected_output": "Yes. Every item is sourced directly from the brand.",
+    "context": [
+      "Policy §6 — All items carry a one-year manufacturing warranty and are sourced directly from the brand. Shoes run true to size."
+    ],
+    "category": "products"
+  },
+  {
+    "input": "What payment methods do you take?",
+    "expected_output": "Visa, Mastercard, and cash on delivery.",
+    "context": [
+      "Policy §7 — Visa, Mastercard and cash on delivery (under 200 JOD). Instalments over 300 JOD. Card details are held by the payment provider."
+    ],
+    "category": "payment"
+  },
+  {
+    "input": "Is cash on delivery available?",
+    "expected_output": "Yes, for orders under 200 JOD.",
+    "context": [
+      "Policy §7 — Visa, Mastercard and cash on delivery (under 200 JOD). Instalments over 300 JOD. Card details are held by the payment provider."
+    ],
+    "category": "payment"
+  },
+  {
+    "input": "Do you store my card details?",
+    "expected_output": "No. Card details are handled by the payment provider.",
+    "context": [
+      "Policy §7 — Visa, Mastercard and cash on delivery (under 200 JOD). Instalments over 300 JOD. Card details are held by the payment provider."
+    ],
+    "category": "payment"
+  },
+  {
+    "input": "Can I pay in instalments?",
+    "expected_output": "Instalments are available on orders over 300 JOD.",
+    "context": [
+      "Policy §7 — Visa, Mastercard and cash on delivery (under 200 JOD). Instalments over 300 JOD. Card details are held by the payment provider."
+    ],
+    "category": "payment"
+  },
+  {
+    "input": "Do I need an account to order?",
+    "expected_output": "No, guest checkout is available.",
+    "context": [
+      "Policy §8 — Guest checkout is available. Accounts are deleted within 7 days of request. Support replies Sunday to Thursday, 9am–5pm."
+    ],
+    "category": "account"
+  },
+  {
+    "input": "How do I reset my password?",
+    "expected_output": "Use the reset link on the sign-in page.",
+    "context": [
+      "Policy §8 — Guest checkout is available. Accounts are deleted within 7 days of request. Support replies Sunday to Thursday, 9am–5pm."
+    ],
+    "category": "account"
+  },
+  {
+    "input": "How do I delete my account?",
+    "expected_output": "Email support and the account is removed within 7 days.",
+    "context": [
+      "Policy §8 — Guest checkout is available. Accounts are deleted within 7 days of request. Support replies Sunday to Thursday, 9am–5pm."
+    ],
+    "category": "account"
+  },
+  {
+    "input": "Do you have a physical shop?",
+    "expected_output": "No. The store is online only.",
+    "context": [
+      "Policy §8 — Guest checkout is available. Accounts are deleted within 7 days of request. Support replies Sunday to Thursday, 9am–5pm."
+    ],
+    "category": "account"
+  },
+  {
+    "input": "What are your support hours?",
+    "expected_output": "Support replies Sunday to Thursday, 9am to 5pm.",
+    "context": [
+      "Policy §8 — Guest checkout is available. Accounts are deleted within 7 days of request. Support replies Sunday to Thursday, 9am–5pm."
+    ],
+    "category": "account"
+  }
+]
